@@ -1,15 +1,18 @@
-$(document).ready(function () {
+// $(document).ready(function () {
+//   $("a").click(function (event) {
+//     event.preventDefault();
+//     $(this).hide("slow");
+//   });
+// });
 
-  $("a").click(function (event) {
-
-    alert("As you can see, the link no longer took you to jquery.com");
-
-    event.preventDefault();
-
-    $("a").addClass("test");
-
-  });
-
+let testoutput = function () {
+  console.log("DSAFASDF");
+}
 
 
+
+// This is for jQuery stuff after the page loads.
+$(function () {
+  var div = $("<div></div>");
+  $("body").append(div);
 });
